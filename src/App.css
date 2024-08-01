@@ -16,7 +16,9 @@
   opacity: .9;
   border-radius: 5px;
   justify-content: space-between;
+  
 }
+
 
 .containerPerson {
   display: flex;

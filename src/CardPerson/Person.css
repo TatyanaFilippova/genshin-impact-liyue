@@ -1,11 +1,11 @@
-.cardPerson{
+.cardPerson {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-  }
+}
 
-  .border{
+.border {
     border: thick double #80c5e7;
     display: flex;
     flex-direction: column;
@@ -15,30 +15,29 @@
     border-radius: 10px;
     box-shadow: 13px 21px 23px 3px rgba(35, 139, 211, 0.35);
     padding: 0;
-  }
+}
 
-  .iconElement{
+.iconElement {
     position: absolute;
     width: 40px;
     left: 10px;
-  }
+}
 
-  .imgPerson{
+.imgPerson {
     width: 120px;
     height: 120px;
-  }
-  
-  .fieldCardPerson{
-    background-color:  rgba(255,255,255,.80);
+}
+
+.fieldCardPerson {
+    background-color: rgba(255, 255, 255, .80);
     width: 137px;
     border-radius: 5px;
-  }
+}
 
-  .namePerson{
+.namePerson {
     font-size: 15px;
     color: #41566E;
     border-radius: 5px;
     margin-top: 3px;
-    font-weight:bold;
-  
-  }
+    font-weight: bold;
+}

@@ -4,7 +4,6 @@ import './Person.css'
 
 
 function Person({ img, star, openModal, name, onClick, icon, bg }) {
-
     return (
         <div className='cardPerson' >
             <Like onClick={onClick} />
