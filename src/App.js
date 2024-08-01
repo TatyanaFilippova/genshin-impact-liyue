@@ -72,7 +72,7 @@ function App() {
       <Modal isOpen={modalIsOpen} onRequestClose={closeModal}>
         <ModalContent title={modalIsOpen.title} content={modalIsOpen.content} closeModal={closeModal} imgBanner={modalIsOpen.imgBanner} star={modalIsOpen.star} stixia={modalIsOpen.stixia} weapon={modalIsOpen.weapon} cont={modalIsOpen.cont} specifications={modalIsOpen.specifications} video={modalIsOpen.video} attack={modalIsOpen.attack} />
       </Modal>
-      <div className='container' style={{ backgroundImage: `url(${fon})`, backgroundSize: 'cover', height: '100vh' }}>
+      <div className='container' style={{ backgroundImage: `url(${fon})`, backgroundSize: 'cover', minHeight: '100vh' }}>
         <div className='heading'>Персонажи из Ли Юэ (полный список)
           <div className='containetext'>
             <div>Genshin Impact</div>
