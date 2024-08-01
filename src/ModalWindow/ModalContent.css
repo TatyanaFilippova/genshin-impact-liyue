@@ -78,3 +78,44 @@
     margin-left: 5px;
     font-weight: bold;
 }
+
+
+@media screen and (max-width: 426px) {
+    .titleModalContent {
+        font-size: 15px;
+    }
+
+    .imgBanner {
+        width: 250px;
+    }
+
+    .modalContent {
+        display: block;
+        font-size: 15px;
+    }
+
+    .modalContentText {
+        width: 250px;
+        font-size: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .textCaseModalContent {
+        font-size: 15px;
+    }
+
+    .headAttack {
+        font-size: 15px;
+    }
+
+    .attackDescription {
+        font-size: 15px;
+        display: block;
+    }
+
+    .imgBanner {
+        padding: 10px;
+    }
+
+}

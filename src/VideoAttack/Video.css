@@ -1,0 +1,10 @@
+.videoAttack{
+    width: 70%;
+}
+
+@media screen and (max-width: 426px) {
+    .videoAttack{
+        width: 100%;
+        margin-top: 10px;
+    }
+}

@@ -16,7 +16,7 @@
   opacity: .9;
   justify-content: space-between;
   border-radius: 5px;
-  
+
 }
 
 
@@ -34,6 +34,7 @@
 .person {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 20px;
 }
 
 .gifHeading {
@@ -56,4 +57,26 @@
   margin-right: 20px;
   color: #41566E;
   font-size: 25px;
+}
+
+@media screen and (max-width: 426px) {
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .containetext {
+    font-size: 20px;
+  }
+
+  .containerText {
+    font-size: 15px;
+    margin-right: 0px;
+    display: block;
+  }
+
 }
