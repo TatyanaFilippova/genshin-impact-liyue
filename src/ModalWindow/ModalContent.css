@@ -1,0 +1,80 @@
+.titleModalContent {
+    font-size: 30px;
+    margin: 0;
+    color: #41566E;
+    background-color: #d0deee;
+    padding: 20px;
+}
+
+.modalContent {
+    display: flex;
+    align-items: center;
+    background-color: #d0deee;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.modalContentText {
+    width: 400px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgBanner {
+    width: 600px;
+    display: flex;
+    object-fit: contain;
+}
+
+.caseModalContent {
+    display: flex;
+}
+
+.headAttack {
+    background-color: #d0deee;
+    display: flex;
+    margin-top: 20px;
+    color: #41566E;
+    font-weight: bold;
+    font-size: 30px;
+    align-items: center;
+    padding: 20px;
+}
+
+.attackDescription {
+    background-color: #d0deee;
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.attackImg {
+    width: 70%;
+}
+
+.buttonModal {
+    background-color: #d0deee;
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    color: #41566E;
+    font-weight: bold;
+}
+
+.star {
+    width: 79px;
+    height: 20px;
+}
+
+.textCaseModalContent {
+    font-size: 17px;
+    color: #41566E;
+    margin-left: 5px;
+    font-weight: bold;
+}
